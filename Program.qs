@@ -12,40 +12,10 @@ namespace BB84 {
     open Microsoft.Quantum.Logical;
 
 
-    
-    // @EntryPoint()
-    // operation SayHello() : Unit {
-    //     Message("Hello quantum world!");
-    // }
-
-    // operation DiagonalBasis (qs : Qubit[]): Unit{
-    //     ApplyToEachA(H, qs); // this applies the Hadamard gateto each element of qs[]
-    //     X(qs[i]); //where qs[] is the qubit array
-    //     Measure([PauliZ], [q]); // where PauliZ is the standard/horizontal basisand q is a qubit ptr
-    // }
-
-    // operation SampleQuantumRandomNumberGenerator() : Result {
-    //     use q = Qubit();   // Allocate a qubit.
-    //     H(q);              // Put the qubit to superposition. It now has a 50% chance of being 0 or 1.
-    //     return MResetZ(q); // Measure the qubit value.
-    // }
-
-    // operation SampleRandomNumberInRange(max : Int) : Int {
-    //     mutable bits = new Result[0];
-    //     for idxBit in 1..BitSizeI(max) {
-    //         set bits += [SampleQuantumRandomNumberGenerator()];
-    //     }
-    //     let sample = ResultArrayAsInt(bits);
-    //     return sample > max
-    //            ? SampleRandomNumberInRange(max)
-    //            | sample;
-    // }
-
-
     @EntryPoint()
     operation Start() : (Bool, Bool[], Bool[]) {
             
-        let result1 = RunBB84Protocol(32, 1.0);
+        let result1 = RunBB84Protocol(32, 0.0);
         //Message("Running the protocol for 256 bit key with eavesdropping probability 1 resulted in " + (result1 ? "succcess" | "failure"));
         return result1;
     }
@@ -171,26 +141,8 @@ namespace BB84 {
         Message("");
         let trimmedKey = aliceKey[0..expectedKeyLength-1];
         Message($"Final trimmed {expectedKeyLength}bit key: {(trimmedKey)}");
-        
-        
-        // let a = (aliceKey);
-        // let message =  "Hello Quantum World";
-        
-        // let b = (bobKey);
-        // let cipher = Microsoft.Quantum.Bitwise.Xor(a, message);
-
-        // let plaintext = Microsoft.Quantum.Bitwise.Xor(b, cipher);
 
         return (true, aliceKey, bobKey);
-    // @EntryPoint()
-    // operation SampleRandomNumber() : Int {
-    //     let numQubits = 10;
-    //     let max = 1;
-    //     Message($"Generating Hermione's random bit string");
-    //     for each in 1..numQubits {
-    //         SampleRandomNumberInRange(max)
-    //     }
-    //     return 0;
-    // }
+
 }
 }
