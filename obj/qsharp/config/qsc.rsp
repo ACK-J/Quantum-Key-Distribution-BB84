@@ -1,0 +1,53 @@
+--proj
+    "/home/jack/Desktop/BB84/BB84/BB84"
+--build-exe
+--input
+    "/home/jack/Desktop/BB84/BB84/Program.qs"
+--output
+    "/home/jack/Desktop/BB84/BB84/obj/qsharp/"
+--references
+    "/home/jack/.nuget/packages/azure.core/1.0.1/lib/netstandard2.0/Azure.Core.dll"
+    "/home/jack/.nuget/packages/azure.identity/1.1.0/lib/netstandard2.0/Azure.Identity.dll"
+    "/home/jack/.nuget/packages/azure.storage.blobs/12.2.0/lib/netstandard2.0/Azure.Storage.Blobs.dll"
+    "/home/jack/.nuget/packages/azure.storage.common/12.1.1/lib/netstandard2.0/Azure.Storage.Common.dll"
+    "/home/jack/.nuget/packages/microsoft.quantum.compiler/0.15.2103133969/lib/netstandard2.1/LlvmBindings.dll"
+    "/home/jack/.nuget/packages/llvmsharp/11.0.0-beta/lib/netcoreapp3.1/LLVMSharp.dll"
+    "/home/jack/.nuget/packages/microsoft.azure.quantum.client/0.15.2103133969/lib/netstandard2.1/Microsoft.Azure.Quantum.Client.dll"
+    "/home/jack/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.0/ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll"
+    "/home/jack/.nuget/packages/microsoft.identity.client/4.13.0/ref/netcoreapp2.1/Microsoft.Identity.Client.dll"
+    "/home/jack/.nuget/packages/microsoft.identity.client.extensions.msal/2.10.0-preview/lib/netcoreapp2.1/Microsoft.Identity.Client.Extensions.Msal.dll"
+    "/home/jack/.nuget/packages/microsoft.quantum.compiler/0.15.2103133969/lib/netstandard2.1/Microsoft.Quantum.BondSchemas.dll"
+    "/home/jack/.nuget/packages/microsoft.quantum.entrypointdriver/0.15.2103133969/lib/netstandard2.1/Microsoft.Quantum.EntryPointDriver.dll"
+    "/home/jack/.nuget/packages/microsoft.quantum.compiler/0.15.2103133969/lib/netstandard2.1/Microsoft.Quantum.QirGeneration.dll"
+    "/home/jack/.nuget/packages/microsoft.quantum.compiler/0.15.2103133969/lib/netstandard2.1/Microsoft.Quantum.QsCompilationManager.dll"
+    "/home/jack/.nuget/packages/microsoft.quantum.compiler/0.15.2103133969/lib/netstandard2.1/Microsoft.Quantum.QsCompiler.dll"
+    "/home/jack/.nuget/packages/microsoft.quantum.compiler/0.15.2103133969/lib/netstandard2.1/Microsoft.Quantum.QsCore.dll"
+    "/home/jack/.nuget/packages/microsoft.quantum.compiler/0.15.2103133969/lib/netstandard2.1/Microsoft.Quantum.QsDataStructures.dll"
+    "/home/jack/.nuget/packages/microsoft.quantum.compiler/0.15.2103133969/lib/netstandard2.1/Microsoft.Quantum.QsDocumentationParser.dll"
+    "/home/jack/.nuget/packages/microsoft.quantum.qsharp.core/0.15.2103133969/lib/netstandard2.1/Microsoft.Quantum.QSharp.Core.dll"
+    "/home/jack/.nuget/packages/microsoft.quantum.qsharp.foundation/0.15.2103133969/lib/netstandard2.1/Microsoft.Quantum.QSharp.Foundation.dll"
+    "/home/jack/.nuget/packages/microsoft.quantum.compiler/0.15.2103133969/lib/netstandard2.1/Microsoft.Quantum.QsOptimizations.dll"
+    "/home/jack/.nuget/packages/microsoft.quantum.compiler/0.15.2103133969/lib/netstandard2.1/Microsoft.Quantum.QsSyntaxProcessor.dll"
+    "/home/jack/.nuget/packages/microsoft.quantum.compiler/0.15.2103133969/lib/netstandard2.1/Microsoft.Quantum.QsTextProcessor.dll"
+    "/home/jack/.nuget/packages/microsoft.quantum.compiler/0.15.2103133969/lib/netstandard2.1/Microsoft.Quantum.QsTransformations.dll"
+    "/home/jack/.nuget/packages/microsoft.quantum.runtime.core/0.15.2103133969/lib/netstandard2.1/Microsoft.Quantum.Runtime.Core.dll"
+    "/home/jack/.nuget/packages/microsoft.quantum.simulators/0.15.2103133969/lib/netstandard2.1/Microsoft.Quantum.Simulation.Common.dll"
+    "/home/jack/.nuget/packages/microsoft.quantum.simulators/0.15.2103133969/lib/netstandard2.1/Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.dll"
+    "/home/jack/.nuget/packages/microsoft.quantum.simulators/0.15.2103133969/lib/netstandard2.1/Microsoft.Quantum.Simulators.dll"
+    "/home/jack/.nuget/packages/microsoft.quantum.standard/0.15.2103133969/lib/netstandard2.1/Microsoft.Quantum.Standard.dll"
+    "/home/jack/.nuget/packages/microsoft.quantum.targets.interfaces/0.15.2103133969/lib/netstandard2.1/Microsoft.Quantum.Targets.Interfaces.dll"
+    "/home/jack/.nuget/packages/microsoft.rest.clientruntime.azure/3.3.19/lib/netstandard2.0/Microsoft.Rest.ClientRuntime.Azure.dll"
+    "/home/jack/.nuget/packages/microsoft.rest.clientruntime/2.3.21/lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll"
+    "/home/jack/.nuget/packages/windowsazure.storage/9.3.3/lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll"
+    "/home/jack/.nuget/packages/numsharp/0.20.5/lib/netstandard2.0/NumSharp.Core.dll"
+--load
+    "/home/jack/.nuget/packages/microsoft.quantum.csharpgeneration/0.15.2103133969/build//../lib/netstandard2.1/Microsoft.Quantum.CSharpGeneration.dll"
+--runtime
+    FullComputation
+--package-load-fallback-folders
+    "/home/jack/Desktop/BB84/BB84/bin/Debug/netcoreapp3.1/"
+--assembly-properties
+    ProcessorArchitecture:Unspecified
+    QSharpOutputType:QSharpExe
+    ExecutionTarget:Any
+    DocsPackageId:BB84
